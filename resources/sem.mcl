@@ -1,0 +1,19 @@
+import ontology  "./resources/AssetTracking.smc";
+
+rule "test rule"
+	conditions
+		
+		?w := Wagon(?pos := hasPosition);
+		?pos(?x := longitude, ?y := latitude,integer(?x) > integer(?y));
+		
+	
+	actions
+
+		 echo(?pos);
+end
+
+
+
+
+
+

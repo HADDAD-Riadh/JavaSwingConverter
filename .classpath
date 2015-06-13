@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/sembysem-asyncaccess-0.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/sembysem-kernel-0.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/grouplayout.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/owlapi-distribution-3.4.10-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/owlapi-distribution-3.4.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/owlapi-distribution-3.4.10-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jgraphx.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jena-2.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jena-arq-2.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jena-core-2.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jena-iri-0.9.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jena-tdb-0.10.1.jar"/>
+	<classpathentry exported="true" kind="con" path="org.dyno.visual.swing.VS_LIBRARY/layoutext"/>
+	<classpathentry exported="true" kind="lib" path="lib/activemq-all-5.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/activemq-all-5.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/arq-2.8.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/com-sof-jms-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-beanutils-1.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-lang-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-logging-adapters-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-logging-api-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/icu4j-3.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/iri-0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jackson-all-1.8.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jdom-2.0.3-contrib.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jdom-2.0.3-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jdom-2.0.3-junit.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jdom-2.0.3-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jdom-2.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/junit-4.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/lucene-core-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/nimrodlf-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/org.osgi.core-4.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.5.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-log4j12-1.5.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/stax-api-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/synthetica.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/wstx-asl-3.2.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/xercesImpl-2.7.1.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

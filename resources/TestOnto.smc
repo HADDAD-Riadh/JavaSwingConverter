@@ -1,0 +1,76 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:smc="http://www.sembysem.org/MicroConcept#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/TestOnto#rssi">
+    <smc:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:maxCardinality>
+    <smc:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:minCardinality>
+    <smc:default rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.sembysem.org/TestOnto#</smc:default>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/TestOnto#RFIDTag">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label></rdfs:label>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/TestOnto#rssiThreshold">
+    <smc:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:maxCardinality>
+    <smc:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:minCardinality>
+    <smc:default rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.sembysem.org/TestOnto#</smc:default>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/TestOnto#RFIDReader"/>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/TestOnto#RFIDLost">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/TestOnto#RFIDNotification"/>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/TestOnto#RFIDFound">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/TestOnto#RFIDNotification"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/TestOnto#notification">
+    <smc:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:maxCardinality>
+    <smc:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:minCardinality>
+    <smc:default>
+      <smc:Ontology rdf:about="http://www.sembysem.org/TestOnto#"/>
+    </smc:default>
+    <rdfs:range rdf:resource="http://www.sembysem.org/TestOnto#RFIDNotification"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/TestOnto#RFIDReader"/>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/TestOnto#tagId">
+    <smc:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:maxCardinality>
+    <smc:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:minCardinality>
+    <smc:default rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.sembysem.org/TestOnto#</smc:default>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/TestOnto#RFIDTag"/>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/TestOnto#about">
+    <smc:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:maxCardinality>
+    <smc:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1</smc:minCardinality>
+    <smc:default rdf:resource="http://www.sembysem.org/TestOnto#"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/TestOnto#RFIDTag"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/TestOnto#RFIDNotification"/>
+  </smc:FunctionalProperty>
+  <smc:SetProperty rdf:about="http://www.sembysem.org/TestOnto#hasTag">
+    <smc:default rdf:resource="http://www.sembysem.org/TestOnto#"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/TestOnto#RFIDTag"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/TestOnto#RFIDReader"/>
+  </smc:SetProperty>
+</rdf:RDF>

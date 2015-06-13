@@ -1,0 +1,1677 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.sembysem.org/LastOwlWidhIndividual#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:smc="http://www.sembysem.org/MicroConcept#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#EspressoMachine">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#CookingAppliance">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#KitchenAppliance">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Appliance">
+                <rdfs:subClassOf>
+                  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Device">
+                    <rdfs:subClassOf>
+                      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#System">
+                        <rdfs:subClassOf>
+                          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalObject">
+                            <rdfs:subClassOf>
+                              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Object">
+                                <rdfs:subClassOf>
+                                  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+                                </rdfs:subClassOf>
+                              </smc:Concept>
+                            </rdfs:subClassOf>
+                          </smc:Concept>
+                        </rdfs:subClassOf>
+                      </smc:Concept>
+                    </rdfs:subClassOf>
+                  </smc:Concept>
+                </rdfs:subClassOf>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Altimeter">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Plate">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Dish">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DesignedArtifact">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalArtifact">
+                <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalObject"/>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasResource">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Resource">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalObject"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Virtual_Object">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#observedBy">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Accelerometer">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#BatteryLifetime">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SurvivalProperty">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Property">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Quality">
+                <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HousingKeepingActivity">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DailyLivingActivity">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HumanActivity">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Process">
+                <rdfs:subClassOf>
+                  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Event">
+                    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+                  </smc:Concept>
+                </rdfs:subClassOf>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ElectricityPlugPowerConsumptionSensor">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PowerConsumptionSensor">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Condition">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TableSpoon">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#observationResultTime">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#executesAction">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Action">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#WashHands">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#GroomingAndHygieneActivity">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#WellbeingActivity">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#DailyLivingActivity"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#QualitativeObservationValue">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ObservationValue">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Region">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Abstract">
+                <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#BreadBasket">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PowerUnitOfMeasurement">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#UnitOfMeasure">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Parameter">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Concept">
+                <rdfs:subClassOf>
+                  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LocalConcept">
+                    <rdfs:subClassOf>
+                      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#FormalEntity">
+                        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Abstract"/>
+                      </smc:Concept>
+                    </rdfs:subClassOf>
+                  </smc:Concept>
+                </rdfs:subClassOf>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasInterfaceType">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#InterfaceType">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#InformationEntity">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ServiceAccessInterface">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationEntity"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#MakingSportActivity">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#WellbeingActivity"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#CookingActivity">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#DailyLivingActivity"/>
+  </smc:Concept>
+  <j.0:LuminosityObservationValue rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LumOIbsValue1"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#StopStartActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Organism">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#BiologicalObject">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalBody">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalObject"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Bowl">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DetectionTime">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Group">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#CollectiveAgent">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SocialAgent">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Agent">
+                <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Ultrasonic_Thickness_Gauge">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Spatula">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Freezer">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#KitchenAppliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OnOffActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OfficesBuilding">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#BuildingAreaComponent">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#IndoorSpaceRegion">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SpaceRegion">
+                <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TypeCollection">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Collection">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalAttribute">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HumanPresenceObservation">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Observation">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Situation">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <j.0:RFIDValue rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDValue_10"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RobotActivityObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <j.0:RFIDReaderOutput rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDReaderOutput_71"/>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_9"/>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_8"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TV">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Appliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SteakKnife">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <j.0:RFIDValue rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDValue_4"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Stairs">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#House">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#BuildingAreaComponent"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OfficeFurniture">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#DesignedArtifact"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasEventConfidence">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Confidence">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Quality"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HumanActivityObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Tactile_sensor">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PressureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Ionization_Gauge">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PressureSensor"/>
+  </smc:Concept>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_7"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ChemicalObject">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalBody"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#has_Device">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Virtual_Object"/>
+  </smc:FunctionalProperty>
+  <j.0:RFIDValue rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDValue_3"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Pantry">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Window">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#KitchenFurniture">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HomeFurniture">
+                <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#DesignedArtifact"/>
+              </smc:Concept>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TeaSpoon">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Selectivity">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#NavigationStep">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+  </smc:Concept>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_6"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LIDAR">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SensorDataSheet">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationEntity"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#BrushTeeth">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#GroomingAndHygieneActivity"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Classification">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HumidityObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Corridor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#House"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#FunctionalSubstance">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Substance">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalBody"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <j.0:Hall rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HallOfLISSI"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SurvivalRange">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasDateValue">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DataValue">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TemporalFeature">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#InformationDescription">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationEntity"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <j.0:RFIDValue rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDValue_2"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Position_sensor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasContainer">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ValueContainer">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Chair">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Window"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Configuration">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasPrecondition">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Description">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Service">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Abstract"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:ListProperty>
+  <j.0:RFIDValue rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDValue_1"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ButterKnife">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasMetric">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#UnitOfMeasure"/>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#QuantitativeObservationValue">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ObservationValue"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Barometer">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PressureSensor"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasAccessInterface">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ServiceAccessInterface"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Resource"/>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#has_Composed_Virtual_Object_Profile">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Composite_Virtual_Object_Profile">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Profile">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationDescription"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:range>
+  </smc:FunctionalProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasObservationValue">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SensorOutput">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Diagnosis">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <j.0:LuminosityMeterSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZLumLuminosityMeter_1"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Place">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Fridge">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#KitchenAppliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#MobileRobot">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Robot">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#System"/>
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalAgent">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Agent"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#CoffeeMaker">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#CookingAppliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Right">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TakeShower">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#GroomingAndHygieneActivity"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasOuput">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Output"/>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Service"/>
+  </smc:ListProperty>
+  <j.0:LuminosityMeterSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZLumLuminosityMeter_2"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Goal">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#onPlatform">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#WeightUnitOfMeasure">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#UnitOfMeasure"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#topObjectProperty">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <j.0:LuminosityObservation rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LumObse1">
+    <j.0:observedBy rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#elosBSensor1"/>
+    <j.0:observationResult rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#uminosityData"/>
+  </j.0:LuminosityObservation>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Boiler">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#CookingAppliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Pot">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Precision">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PIR_Sensor">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#MotionObjectDetectionSensor">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <j.0:LuminosityMeterSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZLumLuminosityMeter_3"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SensorInput">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Polar_Coordinates">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SpatialCoordinates">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SpaceRegion"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OperatingProperty">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementRange">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#happensAt">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#observationResult">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ModulationActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasQualityOfService">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Quality"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Service"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#BreadKnife">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Effect">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ActiveRFIDReader">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFID_Reader">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MotionObjectDetectionSensor"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasDuration">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SpatioTemporalRegion">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Process"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Odometer">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <j.0:LuminosityMeterSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZLumLuminosityMeter_4"/>
+  <j.0:PowerMeterOutput rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PowerMeterOutput_72"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Personification">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialAgent"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Amount">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Latency">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Theory">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#has_Virtual_Object">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Virtual_Object"/>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Composite_Virtual_Object">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#WindObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Kitchen">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#House"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SocialPerson">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Person">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Agent"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Design">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SocialRelation">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Relation">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasMetadata">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ValueMetadata">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ValueContainer"/>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ResponseTime">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasResourceType">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ResourceType">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationEntity"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Resource"/>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#BigFork">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Air_Speed_Indicator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ChefKnife">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalQuality">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Community">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#CollectiveAgent"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Rotary_Actuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Oven">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#CookingAppliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Set">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#FormalEntity"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#includesEvent">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Toaster">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#CookingAppliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SocialObjectAttribute">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Organization">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialAgent"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Thing"/>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasLocalLocation">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LocalLocation">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SpaceRegion"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#GlobalLocation">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SpaceRegion"/>
+      </smc:Concept>
+    </rdfs:domain>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#CarbonMonoxideDetector">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Courtyard">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#House"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasUser">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#foaf_NaturalPerson">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#NaturalPerson">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Person"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DishCabinet">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Window"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Ring_Laser_Gyroscope">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OutdoorSpaceRegion_GlobalPosionningSystem_Coordinates">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SpatialCoordinates"/>
+  </smc:Concept>
+  <j.0:Observation rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Observation_5"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RegulationActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#AcousticSoundVibrationSensor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TimeInterval">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DoorStatusObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <smc:Action rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Action1">
+    <smc:actionType rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Physical</smc:actionType>
+    <smc:actionDomain>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TakeMedicine">
+        <rdfs:subClassOf>
+          <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#HealthcareActivity">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#DailyLivingActivity"/>
+          </smc:Concept>
+        </rdfs:subClassOf>
+      </smc:Concept>
+    </smc:actionDomain>
+    <rdfs:comment xml:lang="fr">Description Here</rdfs:comment>
+  </smc:Action>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Door">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Window"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Table">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Window"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Stimulus">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LuminosityUnitOfMeasurement">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#UnitOfMeasure"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#IsolationActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TemperatureObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasDescription">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ResourceDescription">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationDescription"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Resource"/>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OpenCloseActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Sensitivity">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Kettle">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Contract">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#VitalSignalsSensor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TakeMeal">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#WellbeingActivity"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Inertial_Navigation_System">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LinearActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#qualityOfObservation">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementCapability">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#IndustrialRobot">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Robot"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SystemLifetime">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SurvivalProperty"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LivingRoom">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#House"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Resolution">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RobotActivity">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Process"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#observationSamplingTime">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <j.0:Observation rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Observation_9"/>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#observes">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <j.0:MotionObjectDetectionSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZmoveMotionDetector_2"/>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_4"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Drift">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasInput">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Input"/>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Service"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Sink">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Window"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Collective">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Accuracy">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ConsumedElectricPowerObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#observedProperty">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+  </smc:ListProperty>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_5"/>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#featureOfInterest">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#FeatureOfInterrest"/>
+    </rdfs:range>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PassiveRFIDReader">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#RFID_Reader"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Trashcan">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Window"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Frequency">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#MeasurementProperty"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasProperty">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_2"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Gyroscope">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalPlace">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalObject"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Role">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasTime">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#TemporalFeature"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+  </smc:FunctionalProperty>
+  <j.0:MotionObjectDetectionSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZmoveMotionDetector_1"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OperatingRange">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Property"/>
+  </smc:Concept>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_3"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Time_Pressure_Gauge">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#PressureSensor"/>
+  </smc:Concept>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasProfile">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DeviceProfile">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Profile"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain>
+      <smc:DomainUnion>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#DeviceProfile"/>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+      </smc:DomainUnion>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Room">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#House"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#involvedInActivity">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Process"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Agent"/>
+  </smc:ListProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#has_Virtual_Object_Profile">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#AtomicVirtual_Object_Pofile">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Profile"/>
+      </smc:Concept>
+    </rdfs:range>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Landmark">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SpaceRegion"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Glass">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Narrative">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#serviceOf">
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Virtual_Object"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Service"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ServiceRobot">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Robot"/>
+  </smc:Concept>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_10"/>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasTimeValue">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TimeValue">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+      </smc:Concept>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#TemporalFeature"/>
+  </smc:FunctionalProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Stove">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#CookingAppliance"/>
+  </smc:Concept>
+  <j.0:DoorStatusSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZDoorStatusSensor_1"/>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#MultiTurnActuator">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ActuationDevice"/>
+  </smc:Concept>
+  <j.0:ZigbeeAmbientClimateSensor rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#TelosBSensor1">
+    <j.0:hasLocation rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#uminosityData"/>
+    <j.0:hasLocation rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#allOfLISSI"/>
+  </j.0:ZigbeeAmbientClimateSensor>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#IndoorSaceRegion_Coordinates">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SpatialCoordinates"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Cup">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#WorkflowExecution">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Method">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DesignedSubstance">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#DesignedArtifact"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Garden">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#OutdoorSpaceRegion">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SpaceRegion"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <j.0:SensorOutput rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LuminosityData">
+    <j.0:observedBy rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#elosBSensor1"/>
+  </j.0:SensorOutput>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PlanExecution">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#detects">
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LittleFork">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Pattern">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Relation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ComputingUnitOfMeasure">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#UnitOfMeasure"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Norm">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Task">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#EventType">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Rehabilitation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#HealthcareActivity"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Transition">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Workflow">
+    <rdfs:subClassOf>
+      <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Plan">
+        <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+      </smc:Concept>
+    </rdfs:subClassOf>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Project">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Plan"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#UseToilet">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#GroomingAndHygieneActivity"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PhysicalActivity">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#HumanActivity"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#AirFun">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Appliance"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Magnetic_Compass">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#NavigationPositionSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#SpatialDistanceUnitOfMeasure">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#UnitOfMeasure"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Pan">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Dish"/>
+  </smc:Concept>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isRealizedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#realizes">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isRealizedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+        <rdfs:comment xml:lang="fr">A relation between an information realization and an information object, e.g. the paper copy of the Italian Constitution realizes the text of the Constitution.</rdfs:comment>
+        <rdfs:label xml:lang="en">realizes</rdfs:label>
+        <rdfs:label xml:lang="it">realizza</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+    <rdfs:comment xml:lang="fr">A relation between an information realization and an information object, e.g. the paper copy of the Italian Constitution realizes the text of the Constitution.</rdfs:comment>
+    <rdfs:label xml:lang="en">is realized by</rdfs:label>
+    <rdfs:label xml:lang="it">è realizzato da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isSatisfiedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#satisfies">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isSatisfiedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+        <rdfs:comment xml:lang="fr">A relation between a Situation and a Description, e.g. the execution of a Plan satisfies that plan.</rdfs:comment>
+        <rdfs:label xml:lang="en">satisfies</rdfs:label>
+        <rdfs:label xml:lang="it">soddisfa</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+    <rdfs:comment xml:lang="fr">A relation between a Situation and a Description, e.g. the execution of a Plan satisfies that plan.</rdfs:comment>
+    <rdfs:label xml:lang="en">is satisfied by</rdfs:label>
+    <rdfs:label xml:lang="it">è soddisfatta da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isReferenceOfInformationRealizedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#realizesInformationAbout">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isReferenceOfInformationRealizedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:comment xml:lang="fr">The relation between entities and information realizations, e.g. between Italy and a paper copy of the text of the Italian Constitution.</rdfs:comment>
+        <rdfs:label xml:lang="en">realizes information about</rdfs:label>
+        <rdfs:label xml:lang="it">realizza informazione che si riferisce a a</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">The relation between entities and information realizations, e.g. between Italy and a paper copy of the text of the Italian Constitution.</rdfs:comment>
+    <rdfs:label xml:lang="en">is reference of information realized by</rdfs:label>
+    <rdfs:label xml:lang="it">è riferimento dell'informazione realizzata da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isQualityOf">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasQuality">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isQualityOf"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Quality"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:comment xml:lang="fr">A relation between entities and qualities, e.g. 'Dmitri's skin is yellowish'.</rdfs:comment>
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
+        <rdfs:label xml:lang="it">ha qualità</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Quality"/>
+    <rdfs:comment xml:lang="fr">A relation between entities and qualities, e.g. 'Dmitri's skin is yellowish'.</rdfs:comment>
+    <rdfs:label xml:lang="en">is quality of</rdfs:label>
+    <rdfs:label xml:lang="it">è una qualità di</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isConceptUsedIn">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#usesConcept">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isConceptUsedIn"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+        <rdfs:comment xml:lang="fr">A generic relation holding between a Description and a Concept. In order to be used, a Concept must be previously definedIn another Description. This last condition cannot be encoded for object properties in OWL.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses concept</rdfs:label>
+        <rdfs:label xml:lang="it">usa il concetto</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+    <rdfs:comment xml:lang="fr">A more generic relation holding between a Description and a Concept. In order to be used, a Concept must be previously definedIn another Description</rdfs:comment>
+    <rdfs:label xml:lang="en">is concept used in</rdfs:label>
+    <rdfs:label xml:lang="it">è un concetto usato in</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasPart">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isPartOf">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#hasPart"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain>
+          <smc:DomainUnion>
+            <smc:domainConcept rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Virtual_Object"/>
+            <smc:domainConcept rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+          </smc:DomainUnion>
+        </rdfs:domain>
+        <rdfs:comment xml:lang="fr">A relation between any entities, e.g.'brain is a part of the human body'.</rdfs:comment>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+        <rdfs:label xml:lang="it">è parte di</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.
+Subproperties and restrictions can be used to specialize hasPart for objects, events, etc.</rdfs:comment>
+    <rdfs:label xml:lang="en">has part</rdfs:label>
+    <rdfs:label xml:lang="it">ha parte</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasSetting">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isSettingFor">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#hasSetting"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+        <rdfs:comment xml:lang="fr">A relation between situations and entities, e.g. 'this morning I've prepared my coffee with a new fantastic Arabica', i.e.: the preparation of my coffee this morning is the setting for (an amount of) a new fantastic Arabica.</rdfs:comment>
+        <rdfs:label xml:lang="en">is setting for</rdfs:label>
+        <rdfs:label xml:lang="it">include</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Situation"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A relation between entities and situations, e.g. 'this morning I've prepared my coffee with a new fantastic Arabica', i.e.: (an amount of) a new fantastic Arabica hasSetting the preparation of my coffee this morning.</rdfs:comment>
+    <rdfs:label xml:lang="en">has setting</rdfs:label>
+    <rdfs:label xml:lang="it">è nel contesto di</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#overlaps">
+    <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#overlaps"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A schematic relation between any entities, e.g. 'the chest region overlaps with the abdomen region', 'my spoken words overlap with hers', 'the time of my leave overlaps with the time of your arrival', 'fibromyalgia overlaps with other conditions'.
+Subproperties and restrictions can be used to specialize overlaps for objects, events, time intervals, etc.</rdfs:comment>
+    <rdfs:label xml:lang="en">overlaps</rdfs:label>
+    <rdfs:label xml:lang="it">sovrapposto a</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isConcretelyExpressedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#concretelyExpresses">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isConcretelyExpressedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+        <rdfs:comment xml:lang="fr">A relation between an InformationRealization and a Description, e.g. 'the printout of the Italian Constitution concretelyExpresses the Italian Constitution'. It should be supplied also with a rule stating that the InformationRealization realizes an InformationObject that expresses the Description</rdfs:comment>
+        <rdfs:label xml:lang="en">concretely expresses</rdfs:label>
+        <rdfs:label xml:lang="it">esprime concretamente</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/MicroConcept#TopConcept"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+    <rdfs:comment xml:lang="fr">A relation between an InformationRealization and a Description, e.g. 'the printout of the Italian Constitution concretelyExpresses the Italian Constitution'. It should be supplied also with a rule stating that the InformationRealization realizes an InformationObject that expresses the Description</rdfs:comment>
+    <rdfs:label xml:lang="en">is concretely expressed by</rdfs:label>
+    <rdfs:label xml:lang="it">è espresso concretamente da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasMember">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isMemberOf">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#hasMember"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:comment xml:lang="fr">A relation between collections and entities, e.g. 'the Night Watch by Rembrandt is in the Rijksmuseum collection'; 'Davide is member of the Pen Club', 'Igor is one the subjects chosen for the experiment'.</rdfs:comment>
+        <rdfs:label xml:lang="en">is member of</rdfs:label>
+        <rdfs:label xml:lang="it">è membro di</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+    <rdfs:comment xml:lang="fr">A relation between collections and entities, e.g. 'my collection of saxophones includes an old Adolphe Sax original alto' (i.e. my collection has member an Adolphe Sax alto).</rdfs:comment>
+    <rdfs:label xml:lang="en">has member</rdfs:label>
+    <rdfs:label xml:lang="it">ha membro</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isCharacterizedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#characterizes">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isCharacterizedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+        <rdfs:comment xml:lang="fr">A relation between concepts and collections, where a Concept is said to characterize a Collection; it corresponds to a link between the (reified) intensional and extensional interpretations of a _proper subset of_ a (reified) class. This is different from covers, because it refers to an interpretation the entire reified class.
+E.g. the collection of vintage saxophones is characterized by the Concept 'manufactured by hand', while it gets covered by the Concept 'Saxophone' with the Parameter 'Vintage'.</rdfs:comment>
+        <rdfs:label xml:lang="en">characterizes</rdfs:label>
+        <rdfs:label xml:lang="it">caratterizza</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+    <rdfs:label xml:lang="en">is characterized by</rdfs:label>
+    <rdfs:label xml:lang="ng">is characterized by {@en-us}"^^xsd:st</rdfs:label>
+    <rdfs:label xml:lang="it">è caratterizzato da</rdfs:label>
+  </smc:ListProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasLocation">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isLocationOf">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#hasLocation"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:comment xml:lang="fr">A generic, relative localization, holding between any entities. E.g. 'Rome is the seat of the Pope', 'the liver is the location of the tumor'.
+For 'absolute' locations, see SpaceRegion</rdfs:comment>
+        <rdfs:label xml:lang="en">is location of</rdfs:label>
+        <rdfs:label xml:lang="it">è una localizzazione di</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#GlobalLocation"/>
+    <rdfs:domain>
+      <smc:DomainUnion>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Resource"/>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Device"/>
+      </smc:DomainUnion>
+    </rdfs:domain>
+    <rdfs:comment xml:lang="fr">A generic, relative localization, holding between any entities. E.g. 'the cat is on the mat', 'Omar is in Samarcanda', 'the wound is close to the femural artery'.
+For 'absolute' locations, see SpaceRegion</rdfs:comment>
+    <rdfs:label xml:lang="en">has location</rdfs:label>
+    <rdfs:label xml:lang="it">ha localizzazione</rdfs:label>
+  </smc:FunctionalProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isIntroducedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#introduces">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isIntroducedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialAgent"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+        <rdfs:comment xml:lang="fr">A relation between a Description and a SocialAgent, e.g. a Constitutional Charter introduces the SocialAgent 'PresidentOfRepublic'.</rdfs:comment>
+        <rdfs:label xml:lang="en">introduces</rdfs:label>
+        <rdfs:label xml:lang="it">introduce</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialAgent"/>
+    <rdfs:comment xml:lang="fr">A relation between a Description and a SocialAgent, e.g. a Constitutional Charter introduces the SocialAgent 'PresidentOfRepublic'.</rdfs:comment>
+    <rdfs:label xml:lang="en">is introduced by</rdfs:label>
+    <rdfs:label xml:lang="it">è introdotto da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isReferenceOf">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isAbout">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isReferenceOf"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+        <rdfs:comment xml:lang="fr">A relation between information objects and any Entity (including information objects). It can be used to talk about e.g. entities are references of proper nouns: the proper noun 'Leonardo da Vinci' isAbout the Person Leonardo da Vinci; as well as to talk about sets of entities that can be described by a common noun: the common noun 'person' isAbout the set of all persons in a domain of discourse, which can be represented in DOLCE-Ultralite as an individual of the class: Collection .
+The isAbout relation is reflexive (not expressible in OWL1.0), because information objects are also about themselves.</rdfs:comment>
+        <rdfs:label xml:lang="en">is about</rdfs:label>
+        <rdfs:label xml:lang="it">si riferisce a</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A relation between information objects and any Entity (including information objects). It can be used to talk about e.g. entities are references of proper nouns: the proper noun 'Leonardo da Vinci' isAbout the Person Leonardo da Vinci; as well as to talk about sets of entities that can be described by a common noun: the common noun 'person' isAbout the set of all persons in a domain of discourse, which can be represented in DOLCE-Ultralite as an individual of the class: Collection .
+The isReferenceOf relation is irreflexive, differently from its inverse isAbout.</rdfs:comment>
+    <rdfs:label xml:lang="en">is reference of</rdfs:label>
+    <rdfs:label xml:lang="it">è il riferimento di</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isConceptualizedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#conceptualizes">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isConceptualizedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Agent"/>
+        <rdfs:comment xml:lang="fr">A relation stating that an Agent is internally representing a SocialObject: situations, descriptions, concepts, etc. E.g., 'John believes in the conspiracy theory'; 'Niels Bohr created the solar-system metaphor for the atomic theory'; 'Jacques assumes all swans are white'; 'the task force members share the attack plan'.
+Conceptualizations can be distinguished into different forms, primarily based on the type of SocialObject that is conceptualized. Descriptions and concepts can be 'assumed', situations can be 'believed' or 'known', plans can be 'adopted', etc. (see ontology: http://www.loa-cnr.it/ontologies/Conceptualization.owl.</rdfs:comment>
+        <rdfs:label xml:lang="en">conceptualizes</rdfs:label>
+        <rdfs:label xml:lang="it">concettualizza</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Agent"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+    <rdfs:comment xml:lang="fr">A relation stating that an Agent is internally representing a Description . E.g., 'John believes in the conspiracy theory'; 'Niels Bohr created a solar-system metaphor for his atomic theory'; 'Jacques assumes all swans are white'; 'the task force shares the attack plan'.</rdfs:comment>
+    <rdfs:label xml:lang="en">is conceptualized by</rdfs:label>
+    <rdfs:label xml:lang="it">è concettualizzato da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#follows">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#precedes">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#follows"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:comment xml:lang="fr">A relation between entities, expressing a 'sequence' schema. 
+E.g. 'year 1999 precedes 2000', 'deciding what coffee to use' precedes 'preparing coffee', 'World War II follows World War I', 'in the Milan to Rome autoroute, Bologna precedes Florence', etc.
+It can then be used between tasks, processes, time intervals, spatially locate objects, situations, etc. 
+Subproperties can be defined in order to distinguish the different uses.</rdfs:comment>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
+        <rdfs:label xml:lang="it">precede</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A relation between entities, expressing a 'sequence' schema. 
+E.g. 'year 2000 follows 1999', 'preparing coffee' follows 'deciding what coffee to use', 'II World War follows I World War', etc. 
+It can be used between tasks, processes or time intervals, and subproperties would fit best in order to distinguish the different uses.</rdfs:comment>
+    <rdfs:label xml:lang="en">follows</rdfs:label>
+    <rdfs:label xml:lang="it">segue</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasCommonBoundary">
+    <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#hasCommonBoundary"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A relation to encode either formal or informal characterizations of 'boundaries' common to two different entities: an Event that ends when another begins, two abstract regions that have a common topological boundary, two objects that are said to be 'in contact' from a commonsense perspective, etc.</rdfs:comment>
+    <rdfs:label xml:lang="en">has common boundary</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#farFrom">
+    <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#farFrom"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">Generic distance relation between any Entity(s). E.g. Rome is far from Beijing, astronomy is far from necromancy.</rdfs:comment>
+    <rdfs:label xml:lang="en">far from</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isSpecializedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#specializes">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isSpecializedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+        <rdfs:comment xml:lang="fr">A partial order relation that holds between social objects. 
+It mainly represents the subsumption relation between e.g. a Concept or Description and another Concept (resp. Description) that is broader in extensional interpretation, but narrower in intensional interpretation. For example, the role PhDStudent specializes the role Student.
+Another possible use is between a Collection that isCoveredBy a Concept A, and another Collection that isCoveredBy a Concept B that on its turm specializes A. For example, the 70,000 series Selmer Mark VI saxophone Collection specializes the Selmer Mark VI saxophone Collection.</rdfs:comment>
+        <rdfs:label xml:lang="en">specializes</rdfs:label>
+        <rdfs:label xml:lang="it">specializza</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+    <rdfs:comment xml:lang="fr">A partial order relation that holds between social objects. It represents the subsumption relation between e.g. a Concept and another Concept that is broader in extensional interpretation, but narrowe in intensional interpretation.
+E.g. PhDStudent Role specializes Student Role</rdfs:comment>
+    <rdfs:label xml:lang="en">is specialized by</rdfs:label>
+    <rdfs:label xml:lang="it">è specializzato da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#actsFor">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#actsThrough">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#actsFor"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Agent"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialAgent"/>
+        <rdfs:comment xml:lang="fr">The relation holding between a PhysicalAgent and a SocialAgent. In principle, a SocialAgent requires at least one PhysicalAgent in order to act, but this dependency can be 'delegated', e.g. a university can be acted for by a department, which is acted for by physical agents. AKA isActedBy</rdfs:comment>
+        <rdfs:label xml:lang="en">acts through</rdfs:label>
+        <rdfs:label xml:lang="it">agisce mediante</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialAgent"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Agent"/>
+    <rdfs:comment xml:lang="fr">The relation holding between any Agent, and a SocialAgent. In principle, a SocialAgent requires at least one PhysicalAgent in order to act, but this dependency can be 'delegated'; e.g. a university can be acted for by a department, which on its turm is acted for by physical agents.</rdfs:comment>
+    <rdfs:label xml:lang="en">acts for</rdfs:label>
+    <rdfs:label xml:lang="it">agisce per</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isDescribedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#describes">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isDescribedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+        <rdfs:comment xml:lang="fr">The relation between a Description and an Entity : a Description gives a unity to a Collection of parts (the components), or constituents, by assigning a Role to each of them in the context of a whole Object (the system).
+A same Entity can be given different descriptions, for example, an old cradle can be given a unifying Description based on the original aesthetic design, the functionality it was built for, or a new aesthetic functionality in which it can be used as a flower pot.</rdfs:comment>
+        <rdfs:label xml:lang="en">describes</rdfs:label>
+        <rdfs:label xml:lang="it">descrive</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">The relation between an Entity and a Description: a Description gives a unity to a Collection of parts (the components), or constituents, by assigning a Role to each of them in the context of a whole Object (the system).
+A same Entity can be given different descriptions, for example, an old cradle can be given a unifying Description based on the original aesthetic design, the functionality it was built for, or a new aesthetic functionality in which it can be used as a flower pot.</rdfs:comment>
+    <rdfs:label xml:lang="en">is described by</rdfs:label>
+    <rdfs:label xml:lang="it">è descritto da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isRelatedToConcept">
+    <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isRelatedToConcept"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+    <rdfs:comment xml:lang="fr">Any relation between concepts, e.g. superordinated, conceptual parthood, having a parameter, having a task, superordination, etc.</rdfs:comment>
+    <rdfs:label xml:lang="en">is related to concept</rdfs:label>
+    <rdfs:label xml:lang="it">è associato al concetto</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasParticipant">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isParticipantIn">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#hasParticipant"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+        <rdfs:comment xml:lang="fr">A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'.</rdfs:comment>
+        <rdfs:label xml:lang="en">is participant in</rdfs:label>
+        <rdfs:label xml:lang="it">è un partecipante a</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Event"/>
+    <rdfs:comment xml:lang="fr">A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'.</rdfs:comment>
+    <rdfs:label xml:lang="en">has participant</rdfs:label>
+    <rdfs:label xml:lang="it">ha come partecipante</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isConstituentOf">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasConstituent">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isConstituentOf"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:comment xml:lang="fr">'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. 
+Intuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.
+A desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.
+Example of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. 
+In all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it.</rdfs:comment>
+        <rdfs:label xml:lang="en">has constituent</rdfs:label>
+        <rdfs:label xml:lang="it">ha costituente</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. 
+Intuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.
+A desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.
+Example of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. 
+In all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it.</rdfs:comment>
+    <rdfs:label xml:lang="en">is constituent of</rdfs:label>
+    <rdfs:label xml:lang="it">è costituente di</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#expresses">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isExpressedBy">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#expresses"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+        <rdfs:comment xml:lang="fr">A relation between a dul:SocialObject (the 'meaning') and a dul:InformationObject (the 'expression'). 
+For example: 'A Beehive is a structure in which bees are kept, typically in the form of a dome or box.' (Oxford dictionary)'; 'the term Beehive expresses the concept Beehive in my apiculture ontology'.
+The intuition for 'meaning' is intended to be very broad. A separate, large comment is included in the encoding of 'expresses', for those who want to investigate more on what kind of meaning can be represented in what form.</rdfs:comment>
+        <rdfs:label xml:lang="en">is expressed by</rdfs:label>
+        <rdfs:label xml:lang="it">è espresso da</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SocialObject"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#InformationObject"/>
+    <rdfs:comment xml:lang="fr">This is a large comment field for those who want to investigate the different uses of the 'expresses' relation for modeling different approaches to meaning characterization and modeling.
+For example, in all these cases, some aspect of meaning is involved:
+
+- Beehive means \"a structure in which bees are kept, typically in the form of a dome or box.\" (Oxford dictionary)
+- 'Beehive' is a synonym in noun synset 09218159 \"beehive|hive\" (WordNet)
+- 'the term Beehive can be interpreted as the fact of 'being a beehive', i.e. a relation that holds for concepts such as Bee, Honey, Hosting, etc.'
+- 'the text of Italian apiculture regulation expresses a rule by which beehives should be kept at least one kilometer away from inhabited areas'
+- 'the term Beehive expresses the concept Beehive'
+- ''Beehive' for apiculturists does not express the same meaning as for, say, fishermen'
+- 'Your meaning of 'Beautiful' does not seem to fit mine'
+- ''Beehive' is formally interpreted as the set of all beehives'
+- 'from the term 'Beehive', we can build a vector space of statistically significant cooccurring terms in the documents that contain it'
+- the lexeme 'Belly' expresses the role 'Body_Part' in the frame 'ObservableBodyParts' (FrameNet)
+
+As the examples suggest, the 'meaning of meaning' is dependent on the background approach/theory that one assumes. One can hardly make a summary of the too many approaches and theories of meaning, therefore this relation is maybe the most controversial and difficult to explain; normally, in such cases it would be better to give up formalizing. 
+However, the usefulness of having a 'semantic abstraction' in modeling information objects is so high (e.g. for the semantic web, interoperability, reengineering, etc.), that we accept this challenging task, although without taking any particular position in the debate. 
+We provide here some examples, which we want to generalize upon when using the 'expresses' relation to model semantic aspects of social reality.
+
+In the most common approach, lexicographers that write dictionaries, glossaries, etc. assume that the meaning of a term is a paraphrase (or 'gloss', or 'definition'). 
+Another approach is provided by concept schemes like thesauri and lexicons, which assume that the meaning of a term is a 'concept', encoded as a 'lemma', 'synset', or 'descriptor'.
+Still another approach is that of psychologists and cognitive scientists, which often assume that the meaning of an information object is a concept encoded in the mind or cognitive system of an agent. 
+A radically different approach is taken by social scientists and semioticians, who usually assume that meanings of an information object are spread across the communication practices in which members of a community use that object.
+Another approach that tackles the distributed nature of meaning is assumed by geometrical models of semantics, which assume that the meaning of an InformationObject (e.g. a word) results from the set of informational contexts (e.g. within texts) in which that object is used similarly.
+The logical approach to meaning is still different, since it assumes that the meaning of e.g. a term is equivalent to the set of individuals that the term can be applied to; for example, the meaning of 'Ali' is e.g. an individual person called Ali, the meaning of 'Airplane' is e.g. the set of airplanes, etc. 
+Finally, an approach taken by structuralist linguistics and frame semantics is that a meaning is the relational context in which an information object can be applied; for example, a meaning of 'Airplane' is situated e.g. in the context ('frame') of passenger airline flights.
+
+These different approaches are not necessarily conflicting, and they mostly talk about different aspects of so-called 'semantics'. They can be summarized and modelled within DOLCE-Ultralite as follows (notice that such list is far from exhaustive):
+
+(1) Informal meaning (as for linguistic or commonsense semantics: a distinction is assumed between (informal) meaning and reference; see isAbout for an alternative pattern on reference)
+	- Paraphrase meaning (as for lexicographic semantics). Here it is modelled as the expresses relation between instances of InformationObject and different instances of InformationObject that act as 'paraphrases'
+	- Conceptual meaning (as for 'concept scheme' semantics). Here it is modelled as the expresses relation between instances of InformationObject and instances of Concept
+	- Relational meaning (as for frame semantics). Here it is modelled as the expresses relation between instances of InformationObject and instances of Description
+	- Cognitive meaning (as for 'psychological' semantics). Here it is modelled as the expresses relation between any instance of InformationObject and any different instance of InformationObject that isRealizedBy a mental, cognitive or neural state (depending on which theory of mind is assumed). Such states can be considered here as instances of Process (occurring in the mind, cognitive system, or neural system of an agent)
+	- Cultural meaning (as for 'social science' semantics). Here it is modelled as the expresses relation between instances of InformationObject and instances of SocialObject (institutions, cultural paradigms, norms, social practices, etc.)
+	- Distributional meaning (as for geometrical models of meaning). Here it is modelled as the expresses relation between any instance of InformationObject and any different instance of InformationObject that isFormallyRepresentedIn some (geometrical) Region (e.g. a vector space)
+
+(2) Formal meaning (as for logic and formal semantics: no distinction is assumed between informal meaning and reference, therefore between 'expresses' and 'isAbout', which can be used interchangeably)
+	- Object-level formal meaning (as in the traditional first-order logic semantics). Here it is modelled as the expresses relation between an instance of InformationObject and an instance of Collection that isGroundingFor (in most cases) a Set; isGroundingFor is defined in the ontology: http://www.loa-cnr.it/ontologies/IOLite.owl
+	- Modal formal meaning (as in possible-world semantics). Here it is modelled as the expresses relation between an instance of InformationObject and an instance of Collection that isGroundingFor a Set, and which isPartOf some different instance of Collection that isGroundingFor a PossibleWorld
+
+This is only a first step to provide a framework, in which one can model different aspects of meaning. A more developed ontology should approach the problem of integrating the different uses of 'expresses', so that different theories, resources, methods can interoperate.</rdfs:comment>
+    <rdfs:label xml:lang="en">expresses</rdfs:label>
+    <rdfs:label xml:lang="it">esprime</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isRelatedToDescription">
+    <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isRelatedToDescription"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+    <rdfs:comment xml:lang="fr">Any relation between descriptions.</rdfs:comment>
+    <rdfs:label xml:lang="en">is related to description</rdfs:label>
+    <rdfs:label xml:lang="it">è associata alla descrizione</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#hasRegion">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isRegionFor">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#hasRegion"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+        <rdfs:comment xml:lang="fr">A relation between entities and regions, e.g. 'the color of my car is red'.</rdfs:comment>
+        <rdfs:label xml:lang="en">is region for</rdfs:label>
+        <rdfs:label xml:lang="it">è una regione di</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Region"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A relation between entities and regions, e.g. 'the number of wheels of that truck is 12', 'the time of the experiment is August 9th, 2004', 'the whale has been localized at 34 degrees E, 20 degrees S'.</rdfs:comment>
+    <rdfs:label xml:lang="en">has region</rdfs:label>
+    <rdfs:label xml:lang="it">ha attributo</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#nearTo">
+    <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#nearTo"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">Generic distance relation between any Entity(s). E.g. Rome is near to Florence, astronomy is near to physics.</rdfs:comment>
+    <rdfs:label xml:lang="en">near to</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isClassifiedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#classifies">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isClassifiedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+        <rdfs:comment xml:lang="fr">A relation between a Concept and an Entity, e.g. the Role 'student' classifies a Person 'John'.</rdfs:comment>
+        <rdfs:label xml:lang="en">classifies</rdfs:label>
+        <rdfs:label xml:lang="it">classifica</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Entity"/>
+    <rdfs:comment xml:lang="fr">A relation between a Concept and an Entity, e.g. 'John is considered a typical rude man'; your last concert constitutes the achievement of a lifetime; '20-year-old means she's mature enough'.</rdfs:comment>
+    <rdfs:label xml:lang="en">is classified by</rdfs:label>
+    <rdfs:label xml:lang="it">è classificato da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isUnifiedBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#unifies">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isUnifiedBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+        <rdfs:comment xml:lang="fr">A Collection has a unification criterion, provided by a Description; for example, a community of practice can be unified by a shared theory or interest, e.g. the community that makes research on mirror neurons shares some core knowledge about mirror neurons, which can be represented as a Description MirrorNeuronTheory that unifies the community. There can be several unifying descriptions.</rdfs:comment>
+        <rdfs:label xml:lang="en">unifies</rdfs:label>
+        <rdfs:label xml:lang="it">unifica</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Description"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+    <rdfs:comment xml:lang="fr">A Collection has a unification criterion, provided by a Description; for example, a community of practice can be unified by a shared theory or interest, e.g. the community that makes research on mirror neurons shares some core knowledge about mirror neurons, which can be represented as a Description MirrorNeuronTheory that unifies the community. There can be several unifying descriptions.</rdfs:comment>
+    <rdfs:label xml:lang="en">is unified by</rdfs:label>
+    <rdfs:label xml:lang="it">è unificato da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#isCoveredBy">
+    <smc:inverseOf>
+      <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#covers">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#isCoveredBy"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+        <rdfs:comment xml:lang="fr">A relation between concepts and collections, where a Concept is said to cover a Collection; it corresponds to a link between the (reified) intensional and extensional interpretations of a (reified) class.
+E.g. the collection of vintage saxophones is covered by the Concept 'Saxophone' with the Parameter 'Vintage'.</rdfs:comment>
+        <rdfs:label xml:lang="en">covers</rdfs:label>
+        <rdfs:label xml:lang="it">ricopre</rdfs:label>
+      </smc:ListProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Concept"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Collection"/>
+    <rdfs:comment xml:lang="fr">A relation between concepts and collections, where a Concept is said to cover a Collection; it corresponds to a link between the (reified) intensional and extensional interpretations of a (reified) class.
+E.g. the collection of vintage saxophones is covered by the Concept 'Saxophone' with the Parameter 'Vintage'.</rdfs:comment>
+    <rdfs:label xml:lang="en">is covered by</rdfs:label>
+    <rdfs:label xml:lang="it">è ricoperto da</rdfs:label>
+  </smc:ListProperty>
+  <smc:ListProperty rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#coparticipatesWith">
+    <smc:inverseOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#coparticipatesWith"/>
+    <rdfs:range rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Object"/>
+    <rdfs:comment xml:lang="fr">A relation between two objects participating in a same Event; e.g., 'Vitas and Jimmy are playing tennis'.</rdfs:comment>
+    <rdfs:label xml:lang="en">co-participates with</rdfs:label>
+    <rdfs:label xml:lang="it">copartecipa con</rdfs:label>
+  </smc:ListProperty>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#AmbientClimateSensor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#ZigbeeAmbientClimateSensor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#AmbientClimateSensor"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#Hall">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#House"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LuminosityMeterSensor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#DoorStatusSensor">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensingDevice"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LuminosityObservationValue">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#QuantitativeObservationValue"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#LuminosityObservation">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#Observation"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDValue">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#ObservationValue"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#RFIDReaderOutput">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensorOutput"/>
+  </smc:Concept>
+  <smc:Concept rdf:about="http://www.sembysem.org/LastOwlWidhIndividual#PowerMeterOutput">
+    <rdfs:subClassOf rdf:resource="http://www.sembysem.org/LastOwlWidhIndividual#SensorOutput"/>
+  </smc:Concept>
+</rdf:RDF>

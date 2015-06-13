@@ -1,0 +1,111 @@
+
+      </smc:DomainUnion>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/longitude">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/Position"/>
+  </smc:FunctionalProperty>
+  <j.0:ReportingProfileType rdf:about="http://www.sembysem.org#AssetTracking/customProfile"/>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/departureTime">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/Wagon"/>
+  </smc:FunctionalProperty>
+  <j.0:LandmarkType rdf:about="http://www.sembysem.org#AssetTracking/toBeDefined"/>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/hasDate">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain>
+      <smc:DomainUnion>
+        <smc:domainConcept>
+          <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/Geofencing_Notification">
+            <rdfs:subClassOf>
+              <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/Notification"/>
+            </rdfs:subClassOf>
+          </smc:Concept>
+        </smc:domainConcept>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org#AssetTracking/Location_Alarm"/>
+      </smc:DomainUnion>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/hasLandmarkType">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/LandmarkType"/>
+    </rdfs:range>perty>
+
+
+ <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/Notification">
+         
+ </smc:Concept>
+
+
+
+
+  <j.0:Geofencing_Notif_Type rdf:about="http://www.sembysem.org#AssetTracking/entree"/>
+  <j.0:Position rdf:about="http://www.sembysem.org#AssetTracking/cargo_delivery_place"/>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/hasLandmark">
+    <rdfs:range rdf:resource="http://www.sembysem.org#AssetTracking/Landmark"/>
+    <rdfs:domain>
+      <smc:DomainUnion>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org#AssetTracking/Geofencing_Notification"/>
+        <smc:domainConcept>
+          <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/Customer_Arrival">
+            <rdfs:subClassOf rdf:resource="http://www.sembysem.org#AssetTracking/Notification"/>
+          </smc:Concept>
+        </smc:domainConcept>
+        <smc:domainConcept rdf:resource="http://www.sembysem.org#AssetTracking/Location_Alarm"/>
+      </smc:DomainUnion>
+    </rdfs:domain>
+  </smc:FunctionalProperty>
+  <j.0:ReportingProfileType rdf:about="http://www.sembysem.org#AssetTracking/standardProfile"/>
+  <j.0:ReportingProfile rdf:about="http://www.sembysem.org#AssetTracking/reportingProfile"/>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/isOpened">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/DoorSensor"/>
+  </smc:FunctionalProperty>
+  <j.0:Geofencing_Notif_Type rdf:about="http://www.sembysem.org#AssetTracking/sortie"/>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/hasGeofencingNotifType">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/Geofencing_Notif_Type"/>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/Geofencing_Notification"/>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/hasMovementSensor">
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/MovementSensor"/>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/Wagon"/>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/latitude">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/Position"/>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/doorOpened">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/Location_Alarm"/>
+  </smc:FunctionalProperty>
+  <smc:FunctionalProperty rdf:about="http://www.sembysem.org#AssetTracking/isMoving">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/MovementSensor"/>
+  </smc:FunctionalProperty>
+  <smc:SetProperty rdf:about="http://www.sembysem.org#AssetTracking/isSubjectToNotification">
+    <smc:inverseOf>
+      <smc:SetProperty rdf:about="http://www.sembysem.org#AssetTracking/isNotificationOf">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org#AssetTracking/isSubjectToNotification"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org#AssetTracking/Wagon"/>
+        <rdfs:domain rdf:resource="http://www.sembysem.org#AssetTracking/Notification"/>
+      </smc:SetProperty>
+    </smc:inverseOf>
+    <rdfs:range rdf:resource="http://www.sembysem.org#AssetTracking/Notification"/>
+  </smc:SetProperty>
+  <smc:SetProperty rdf:about="http://www.sembysem.org#AssetTracking/isSubjectToAlarm">
+    <smc:inverseOf>
+      <smc:SetProperty rdf:about="http://www.sembysem.org#AssetTracking/isAlarmOf">
+        <smc:inverseOf rdf:resource="http://www.sembysem.org#AssetTracking/isSubjectToAlarm"/>
+        <rdfs:range rdf:resource="http://www.sembysem.org#AssetTracking/Wagon"/>
+      </smc:SetProperty>
+    </smc:inverseOf>
+    <rdfs:range>
+      <smc:Concept rdf:about="http://www.sembysem.org#AssetTracking/EventOnCargo_Alarm"/>
+    </rdfs:range>
+  </smc:SetProperty>
+</rdf:RDF>
